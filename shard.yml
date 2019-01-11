@@ -1,0 +1,17 @@
+name: julianrutledge.com-crystal
+version: 0.1.0
+
+authors:
+  - Rutledge, Julian A. <jarutledge@seic.com>
+
+targets:
+  julianrutledge.com-crystal:
+    main: src/julianrutledge.com-crystal.cr
+
+crystal: 0.27.0
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
