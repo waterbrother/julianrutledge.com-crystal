@@ -14,8 +14,12 @@ get "/news" do
   render "src/views/news.ecr", "src/views/main.ecr"
 end
 
-get "/portfolio" do
-  render "src/views/portfolio.ecr", "src/views/main.ecr"
+get "/source-code" do
+  render "src/views/source-code.ecr", "src/views/main.ecr"
+end
+
+get "/music" do
+  render "src/views/music.ecr", "src/views/main.ecr"
 end
 
 get "/contact" do
