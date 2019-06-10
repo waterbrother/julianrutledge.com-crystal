@@ -1,6 +1,7 @@
 require "kemal"
 
 year = Time.now.year
+port = ARGV[0]?.try &.to_i?
 
 get "/" do
   render "src/views/index.ecr", "src/views/main.ecr"
@@ -26,4 +27,6 @@ get "/contact" do
   render "src/views/contact.ecr", "src/views/main.ecr"
 end
 
-Kemal.run
+#NOTE to self: any files in ../public need to be copied to the execution dir
+Kemal.config.env = "production"
+Kemal.run port

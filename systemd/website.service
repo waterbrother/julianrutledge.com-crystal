@@ -1,0 +1,8 @@
+[Unit]
+Description=website daemon
+
+[Service]
+Type=exec
+Environment="HOME="
+WorkingDirectory=/srv/http/website
+ExecStart=/srv/http/website/julianrutledge.com 80
