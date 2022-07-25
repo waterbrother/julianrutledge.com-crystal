@@ -1,7 +1,8 @@
 require "kemal"
 
-year = Time.now.year
-port = ARGV[0]?.try &.to_i?
+#year = Time.now.year
+year = 2022
+port = 8080
 
 get "/" do
   render "src/views/index.ecr", "src/views/main.ecr"

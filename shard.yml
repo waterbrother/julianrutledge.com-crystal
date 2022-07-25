@@ -1,4 +1,4 @@
-name: julianrutledge.com-crystal
+name: julianrutledge.com
 version: 0.1.0
 
 authors:
@@ -6,9 +6,9 @@ authors:
 
 targets:
   julianrutledge.com-crystal:
-    main: src/julianrutledge.com-crystal.cr
+    main: src/julianrutledge.com.cr
 
-crystal: 0.27.0
+crystal: 1.5.0
 
 license: MIT
 

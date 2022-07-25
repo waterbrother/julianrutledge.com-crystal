@@ -1,0 +1,10 @@
+version: '3'
+services:
+  website:
+    image: julianrutledge/website:1.0.0
+    #volumes:
+    #  - .:/web
+    build:
+      context: ./
+    ports:
+      - 8080:8080
