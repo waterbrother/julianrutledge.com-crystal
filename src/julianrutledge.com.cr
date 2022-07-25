@@ -12,10 +12,6 @@ get "/about" do
   render "src/views/about.ecr", "src/views/main.ecr"
 end
 
-get "/news" do
-  render "src/views/news.ecr", "src/views/main.ecr"
-end
-
 get "/code" do
   render "src/views/code.ecr", "src/views/main.ecr"
 end
