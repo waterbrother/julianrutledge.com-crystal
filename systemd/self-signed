@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-openssl req -x509 -newkey rsa:4096 -keyout /srv/http/website/public/key.pem -out /srv/http/website/public/cert.pem -subj '/C=US/ST=Pennsylvania/L=Phoenixville/OU=Org/CN=www.julianrutledge.com' -nodes -sha256
