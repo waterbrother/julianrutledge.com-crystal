@@ -1,7 +1,7 @@
 version: '3'
 services:
   website:
-    image: julianrutledge/website:1.0.2
+    image: julianrutledge/website:1.0.3
     #volumes:
     #  - .:/web
     build:
