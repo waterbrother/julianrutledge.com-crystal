@@ -1,4 +1,4 @@
-FROM crystallang/crystal:1.5-alpine
+FROM crystallang/crystal:1.16-alpine
 
 LABEL maintainer="julian@julianrutledge.com"
 

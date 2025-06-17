@@ -9,15 +9,16 @@ service	:= website
 # shards
 shards-clean:
 	@rm -rf lib/
+	@rm -f shard.lock
 
 shards-install:
 	@/usr/bin/shards install
 
 # crystal
-crystal-run:
+crystal-run: shards-clean shards-install
 	@crystal run src/julianrutledge.com.cr
 
-crystal-build:
+crystal-build: shards-clean shards-install
 	@crystal build src/julianrutledge.com.cr
 
 # docker
