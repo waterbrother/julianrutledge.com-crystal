@@ -1,0 +1,11 @@
+deployment:
+  replicas: 1
+  container:
+    name: julianrutledge/website
+    tag: 1.1.0
+    port: 8080
+
+
+service:
+  port: 80
+    
